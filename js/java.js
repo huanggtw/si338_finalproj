@@ -29,7 +29,7 @@ function startSlideshow() {
   slideshowTimer = setInterval(() => {
     showSlide(slideIndex);
     slideIndex = (slideIndex + 1) % slides.length;
-  }, 6000);
+  }, 4500);
 }
 
 function goToSlide(index) {

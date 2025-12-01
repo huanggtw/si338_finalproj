@@ -270,3 +270,11 @@ h1 {
 .title h1 {
   padding-top: 6rem;
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .slideshow img:hover,
+  .banner:hover {
+    transform: none;
+    transition: none;
+  }
+}
